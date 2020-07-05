@@ -9,44 +9,34 @@ body {
   height: 100%;
   background-color: #2C4159;
   font-family: 'Open Sans', sans-serif;
-}
+} 
 body:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
-/* Gradient Containers */
-.gradient-container1 {
+
+/* .gradient-container  {
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
   position: relative;
   display: inline-block;
-  vertical-align: middle;
-}
-.gradient-container2 {
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-}
-.gradient-container3 {
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-}
-.gradient-container4 {
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-}
+  
+} */
+
+
+
+
+
 .reflection-container {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   transform-style: preserve-3d;
   perspective: 1000px;
+  margin: 10px; 
+  
+  /* Added a margin in orginal code to reveal background gradient */
 }
 .reflection-container:before {
   content: 'Fuck Off';
@@ -68,6 +58,9 @@ body:before {
   pointer-events: none;
   transition: 100ms linear transform;
   overflow: hidden;
+  border: 10px solid transparent;
+  border-image-source:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  border-image-slice: 7;
 }
 .reflection-container .reflection-content:before {
   content: '';
@@ -78,6 +71,7 @@ body:before {
   top: -50%;
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2));
 }
+
 .reflection-container .reflection-grid-cell {
   position: absolute;
   z-index: 1;

@@ -22,3 +22,83 @@ time, mark, audio, video {
   display: flex;
 }
 
+/* Nav overlay on mobile  */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(0deg,#02A1AB 0,#FF5300);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 35%;
+  height: 65vh;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/* Social Media Icons */
+
+.icon-bar {
+  /* width: 90px; */
+  display: flex;
+  justify-content: center;
+}
+
+.icon-bar a {
+  display: block;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 24px;
+}
+
+.icon-bar a:hover {
+  border: white 2px solid;
+  color: rgba(255, 255, 255, 0.974);
+}
+
+.fa {
+  padding: 50px;
+  font-size: 30px;
+  width: 53px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+/* .menu-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+} */

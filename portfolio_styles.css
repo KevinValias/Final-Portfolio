@@ -10,12 +10,12 @@ body {
   background-color: #2C4159;
   font-family: 'Open Sans', sans-serif;
 } 
-body:before {
+/* body:before {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-}
+} */
 
 .reflection-container1 {
   position: relative;

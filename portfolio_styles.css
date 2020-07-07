@@ -60,6 +60,21 @@
   }
   /* Height and Width change for resting container */
 
+<<<<<<< HEAD
+body {
+  text-align: center;
+  height: 100%;
+  background-color: #2C4159;
+  font-family: 'Open Sans', sans-serif;
+} 
+/* body:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+} */
+=======
+>>>>>>> master
 
   .reflection-container1 .reflection-content1 {
     height: 40vh;        

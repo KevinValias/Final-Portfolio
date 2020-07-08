@@ -1,69 +1,66 @@
-/* .reflection-container1 {
-   height: 40vh;        
-    width: 40vh;
-    background: #000 url('pic1.jpg');
-    background-size: cover;
-    background-position: center;
-    transform: rotateX(0) rotateY(0);
-    pointer-events: none;
-    transition: 100ms linear transform;
-    overflow: hidden;
-    border: 10px solid transparent;
-    border-image-source: linear-gradient(to right, red,violet);
-    border-image-slice: 2;
-}
- */
-
-
-
-
-
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 @media screen and (min-width: 800px) { 
   html {
     height: 100%;
   }
-
-  body {
-    text-align: center;
-    height: 100%;
-    background-color: #2C4159;
-    font-family: 'Open Sans', sans-serif;
-  } 
-  
-  .portfolio-text {
-    font-size: 50px;
+  .portfolio-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 142.2;
   }
-  /* 3D Hover Image Containers 23-4287 */
+  .portfolio-container {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  .portfolio-text-container {
+    height: 30px;
+    
+  }
+.list-text {
+  font-size: 50px;
+  padding-right: 80px;
+ float: right;
+  
+}
+.portfolio-container {
+  display:grid;
+  justify-content: space-evenly;
+  grid-template-areas: 
+   'portfolio-text reflection-container1 reflection-container1';
+}
+.btn {
+  margin-top: 225px;
+}
+.button {
+  border: #fe5200 2px solid;
+  background-color: #00a1ab;
+}
+  
   .reflection-container1 {
     position: relative;
     display: inline-block;
     vertical-align: middle;
     transform-style: preserve-3d;
     perspective: 1000px;
-    margin: 10px; 
-    
-    /* Added a margin  */
+   
   }
   .reflection-container1:before {
     content: 'Fuck Off';
     color: #fff;
-    position: absolute;
+    position: center;
     left: -1rem;
     top: 50%;
     font-size: 6vh;
     transform: translateX(-100%) translateY(-50%);
     border: 10px solid transparent;
-  
-    
   }
   /* Height and Width change for resting container */
 
 
   .reflection-container1 .reflection-content1 {
-    height: 40vh;        
-    width: 40vh;
+    height: 70vh;        
+    width: 50vw;
     background: #000 url('pic1.jpg');
     background-size: cover;
     background-position: center;
@@ -72,9 +69,8 @@
     transition: 100ms linear transform;
     overflow: hidden;
     border: 10px solid transparent;
-    border-image-source: linear-gradient(to right, red,violet);
+    border-image-source: linear-gradient(to right, #fe5200,#6f0000,#01263b,#00a1ab);
     border-image-slice: 2;
-  
   } 
 
 
@@ -86,7 +82,6 @@
     height: 200%;
     left: -50%;
     top: -50%;
-
   }
 
   .reflection-container1 .reflection-grid-cell {
@@ -1110,7 +1105,7 @@
     vertical-align: middle;
     transform-style: preserve-3d;
     perspective: 1000px;
-    margin: 10px; 
+    
     
     /* Added a margin  */
   }
@@ -1131,7 +1126,7 @@
 
   .reflection-container2 .reflection-content2 {
     height: 80vh;        
-    width: 40vh;
+    width: 30vh;
     background: #000 url('pic1.jpg');
     background-size: cover;
     background-position: center;
@@ -1140,9 +1135,9 @@
     transition: 100ms linear transform;
     overflow: hidden;
     border: 10px solid transparent;
-    border-image-source: linear-gradient(to right,yellow,blue);
+    border-image-source: linear-gradient(to right,#fe5200,#6f0000,#01263b,#00a1ab);
     border-image-slice: 2;
-  
+    
   } 
 
 
@@ -2176,7 +2171,8 @@
     vertical-align: middle;
     transform-style: preserve-3d;
     perspective: 1000px;
-    margin: 10px; 
+     
+    
     /* Added a margin  */
   }
   .reflection-container3:before {
@@ -2191,8 +2187,8 @@
   }
   /* Height and Width change for resting container */
   .reflection-container3 .reflection-content3 {
-    height: 40vh;        
-    width: 80vh;
+    height: 50vh;        
+    width: 50vh;
     background: #000 url('pic1.jpg');
     background-size: cover;
     background-position: center;
@@ -2201,8 +2197,9 @@
     transition: 100ms linear transform;
     overflow: hidden;
     border: 10px solid transparent;
-    border-image-source: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border-image-source: linear-gradient(to right, #fe5200,#6f0000,#01263b,#00a1ab);
     border-image-slice: 7;
+    
   } 
 
 
@@ -3235,7 +3232,7 @@
     vertical-align: middle;
     transform-style: preserve-3d;
     perspective: 1000px;
-    margin: 10px; 
+     
     
     /* Added a margin  */
   }
@@ -3255,8 +3252,8 @@
 
   /* Height and Width change for resting container */
   .reflection-container4 .reflection-content4 {
-    height: 40vh;        
-    width: 40vh;
+    height: 50vh;        
+    width: 90vh;
     background: #000 url('pic1.jpg');
     background-size: cover;
     background-position: center;
@@ -3265,8 +3262,10 @@
     transition: 100ms linear transform;
     overflow: hidden;
     border: 10px solid transparent;
-    border-image-source: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border-image-source: linear-gradient(to right, #fe5200,#6f0000,#01263b,#00a1ab);
     border-image-slice: 7;
+    margin-left: 50px;
+   
   
   } 
 
@@ -4289,3 +4288,100 @@
     transform: translateY(-25%);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+
+@media(max-width:799px) {
+  .button {
+    margin-left: 325px;
+  }
+  .portfolio-text-container {
+    font-size: 20px;
+    margin-left: 330px;
+  }
+
+  .reflection-container1 .reflection-content1 {
+    
+    height: 40vh;        
+    width: 40vw;
+    background: #000 url('pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotateX(0) rotateY(0);
+    pointer-events: none;
+    transition: 100ms linear transform;
+    overflow: hidden;
+    border: 10px solid transparent;
+    border-image-source: linear-gradient(to right,#fe5200,#6f0000,#01263b,#00a1ab);
+    border-image-slice: 2;
+    margin: 25px;
+    margin-left: 225px;
+  } 
+  .reflection-container2 .reflection-content2 {
+    
+    height: 80vh;        
+    width: 40vw;
+    background: #000 url('pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotateX(0) rotateY(0);
+    pointer-events: none;
+    transition: 100ms linear transform;
+    overflow: hidden;
+    border: 10px solid transparent;
+    border-image-source: linear-gradient(to right,#fe5200,#6f0000,#01263b,#00a1ab);
+    border-image-slice: 2;
+    margin: 25px;
+    margin-left: 225px;
+  } 
+  .reflection-container3 .reflection-content3 {
+    height: 40vh;        
+    width: 80vw;
+    background: #000 url('pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotateX(0) rotateY(0);
+    pointer-events: none;
+    transition: 100ms linear transform;
+    overflow: hidden;
+    border: 10px solid transparent;
+    border-image-source: linear-gradient(to right,#fe5200,#6f0000,#01263b,#00a1ab);
+    border-image-slice: 7;
+    margin: 30px;
+    margin-left: 80px;
+  } 
+  .reflection-container4 .reflection-content4 {
+    height: 40vh;        
+    width: 40vw;
+    background: #000 url('pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotateX(0) rotateY(0);
+    pointer-events: none;
+    transition: 100ms linear transform;
+    overflow: hidden;
+    border: 10px solid transparent;
+    border-image-source: linear-gradient(to right,#fe5200,#6f0000,#01263b,#00a1ab);
+    border-image-slice: 7;
+    margin: 30px;
+    margin-left: 225px;
+  
+  } 
+
+  }
+
+/* #fe5200
+#6f0000
+#01263b
+#00a1ab */

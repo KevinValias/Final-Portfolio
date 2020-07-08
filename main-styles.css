@@ -114,9 +114,9 @@ img {
   }
 
   .fa {
-    padding: 50px;
+    padding: 80px;
     font-size: 30px;
-    width: 53px;
+    width: 75px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -139,6 +139,20 @@ img {
   .logo {
     text-align: left;
   }
+
+  hr {
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 83%;
+    border: solid #FF5300 2px;
+  }
+  
+  h3 {
+    margin-left: 12%;
+    margin-right: 65%;
+    font-size: 12px;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -206,10 +220,16 @@ img {
     /* margin-bottom: 10%; */
   }
 
-  /* img {
-    margin-left: 70pt;
-    width: 50%;
-    height: auto;
-    display: inline-block;
-  } */
+  hr {
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 83%;
+    border: solid #FF5300 2px;
+  }
+  
+  h3 {
+    margin-left: 12%;
+    margin-right: 65%;
+    font-size: 20px;
+  }
 }

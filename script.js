@@ -1,10 +1,10 @@
 //Navigator menu on mobile 
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
+  document.getElementById("myNav").style.width = "100vw";
 }
 
 function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
+  document.getElementById("myNav").style.width = "0vw";
 }
 
 particlesJS("particles-js", {
@@ -17,7 +17,7 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": ["#FF5300" , "#6F0000" , "#00263B" , "#02A1AB" ,]
+      "value": ["#FF5300", "#6F0000", "#00263B", "#02A1AB", ]
     },
     "shape": {
       "type": "circle",

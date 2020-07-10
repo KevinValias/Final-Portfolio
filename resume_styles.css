@@ -1,0 +1,82 @@
+/* accordion styles */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 19px;
+  transition: 0.4s;
+  border: rgba(221, 216, 216, 0.883) .20pt solid;
+}
+
+.accordion > .active,
+.accordion:hover {
+  background-color: #02A1AB;
+  color: whitesmoke;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: rgba(255, 255, 255, 0.712);
+  overflow: hidden;
+  opacity: .9;
+}
+
+li{
+  list-style-type: square;
+  text-indent: 50px;
+}
+
+.resume > h2, button{
+  font-weight: bold;
+}
+
+.resume > h2{
+  text-align: center;
+  font-size: 25pt;
+  color: black;
+  text-shadow:3px 3px #02A1AB;
+}
+
+.resume-container{
+  position: relative;
+  width: 100%;
+  max-width: 105rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/resume.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  opacity: .9;
+  margin: 1rem 1rem;
+}
+
+.resume{
+  left: 5rem;
+  width: 100%;
+  max-width: 60rem;
+}
+
+.experience-date {
+  font-size: 16px;
+  font-style: italic;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.fa-angle-double-down {
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

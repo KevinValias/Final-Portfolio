@@ -7,6 +7,7 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0vw";
 }
 
+// Header Canva Particles //
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -117,3 +118,4 @@ particlesJS("particles-js", {
   },
   "retina_detect": true
 });
+

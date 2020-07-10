@@ -4,6 +4,7 @@
   html {
     height: 100%;
   }
+
   .portfolio-container {
     margin: 0 auto;
     width: 100%;
@@ -20,8 +21,11 @@
 .list-text {
   font-size: 50px;
   padding-right: 80px;
- float: right;
-  
+  float: right;
+  }
+
+.list-text > li{
+list-style-type: none;
 }
 .portfolio-container {
   display:grid;
@@ -46,7 +50,7 @@
    
   }
   .reflection-container1:before {
-    content: 'Fuck Off';
+    content: 'Project 3';
     color: #fff;
     position: center;
     left: -1rem;

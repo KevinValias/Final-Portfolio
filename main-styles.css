@@ -99,13 +99,6 @@ canvas {
   display: block;
 }
 
-img {
-  margin-left: 5%;
-  padding-bottom: 5%;
-  width: 100%;
-  height: auto;
-  display: inline-block;
-}
 
 /* ---- particles.js container ---- */
 .navigation {
@@ -215,11 +208,15 @@ img {
   }
 
   .header-img {
-    height: 10rem;
+    display: inline-block;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 5rem;
+    padding-bottom: 5%;
+    width: 80%;
+    height: auto;
+    
+    
   }
-
   header {
     text-align: right;
     margin: 1% 5.5%;

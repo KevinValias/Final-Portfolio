@@ -43,8 +43,7 @@
       <div id="myNav" class="overlay">
         <div class="nav-container">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-            >&times;</a
-          >
+            >&times;</a>
           <!-- LOGO -NEED TO ADD GRAPHIC IN HREF AND DELETE TEXT-->
           <a href="#default" class="logo">Logo</a>
           <!-- NAV BAR -->
@@ -112,16 +111,66 @@
         </div>
       </div>
     </div>
+    <!-- DELETE START (not until all sections are done)-->
     <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
     <div class="header-img">
         <img src="./images/Untitled-1.jpg" alt="ariel holman title">
     </div>
   </header>
+  <!-- DELETE END -->
   <main class="main flex-container">
-    <section class="about-me">
-      TEST
-       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fugit natus repellat nemo iure ratione perferendis nostrum unde eaque quisquam voluptatem dolorum minima, reprehenderit laborum omnis! Officia quas voluptatem earum?
-    </section> <br>
+    <section id="resume-section">
+      <div class="resume-container">
+        <div class="resume">
+            <h2>My Journey</h2>
+            <br>
+            <button class="accordion">Web Developer Student at Austin Coding Academy <i class="fa fa-angle-double-down" style="font-size:24px"></i><span class= "experience-date">(June 2020 - September 2020)</span></button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+              </ul>
+            </div>
+            <button class="accordion">Account Manager at GoDaddy Social <i class="fa fa-angle-double-down" style="font-size:24px"></i><span class= "experience-date">(March 2017 - May 2020)</span>
+            </button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+              </ul>
+            </div>
+            <button class="accordion">Associate Land Analyst at Enervest <i class="fa fa-angle-double-down" style="font-size:24px"></i><span class= "experience-date">(April 2011 - October 2015)</span></button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
+              </ul>
+            </div>
+            <script>
+              var acc = document.getElementsByClassName("accordion");
+              var i;
+
+              for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var panel = this.nextElementSibling;
+                  if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                  } else {
+                    panel.style.display = "block";
+                  }
+                });
+              }
+            </script>
+        </div> 
+      </div>  
+    </section>
     <section class="portfolio-container">
      <div class="portfolio-text-container">
         <ul class="list-text">
@@ -345,14 +394,9 @@
         <a class='reflection-grid-cell reflection-grid-cell-100' href='#'></a>
         <div class='reflection-content2'></div>
         </div>
-<<<<<<< HEAD
-     <div class='reflection-container3'>
-  
-=======
 
        <div class='reflection-container3'>
  
->>>>>>> 0cc61cfd74fb4087ef18d5a5a7ea6a126499c6ce
         <a class='reflection-grid-cell reflection-grid-cell-1' href='#'></a>
         <a class='reflection-grid-cell reflection-grid-cell-2' href='#'></a>
         <a class='reflection-grid-cell reflection-grid-cell-3' href='#'></a>
@@ -559,9 +603,6 @@
         <a class='reflection-grid-cell reflection-grid-cell-100' href='#'></a>
         <div class='reflection-content4'></div>
         </div>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
          </div> -->
         <!-- portfolio:KEVIN -->
         <!-- Button for RESUME -->
@@ -595,9 +636,6 @@
     <script src="script.js"></script>
   </body>
 </html>
-=======
-      
->>>>>>> 0cc61cfd74fb4087ef18d5a5a7ea6a126499c6ce
       <div class="btn">
         <button class="button">Resume</button>
       </div>
@@ -634,6 +672,10 @@
   <br>
   <hr class="gradient">
   <section>
+    </main>
+    <br>
+    <br>
+    <hr class="gradient">
     <section id="contact" class="contact flex-columns">
       <div class="row">
         <div class="column">
@@ -662,11 +704,28 @@
         </form>
       </div>
     </section>
-  </section>
-  
-    
-
-
+     </main>
+  <br>
+  <br>
+  <br>
+  <hr class="gradient">
+  <section id="blog" class="blog flex-columns flex-reverse">
+    <div class="row">
+      <div class="column">
+        <div class="column-1">
+          <img src="quil.jpg" alt="">
+        </div>
+        </div>
+      <div class="column">
+    <div class="column-2 bg-secondary">
+      <h4>April 20 2020</h4>
+      <h2>Blog Post One</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis veniam blanditiis, doloremque maxime quaerat corrupti debitis laudantium similique corporis magni!</p>
+    <a href="blog.html" class="btn btn-outline">
+      <i class="fas fa-chevron"></i>
+      Read Our Blog
+    </a>
+    </div>
   <footer class="footer">
     <!-- footer: KEVIN -->
   </footer>
@@ -677,4 +736,3 @@
 <script src="script.js"></script>
 </body>
 </html>
->>>>>>> 2a002980207acf19b4e3976db1ded8c72df27715

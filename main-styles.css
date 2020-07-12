@@ -218,7 +218,6 @@ canvas {
 
   .header-welcome > hr {
     margin-top: 5%;
-    /* margin-left: 3%; */
     margin-right: 83%;
     border: solid #FF5300 2px;
   }
@@ -256,10 +255,10 @@ canvas {
   }
 
   .logo {
-    /* font-size: 25px; */
     margin-left: 1%;
-    text-align: ;
-    /* color: #00263B; */
+    text-align: left;
+    height: auto;
+    width: 10rem;
   }
 
   .overlay-content {

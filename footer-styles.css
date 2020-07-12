@@ -81,3 +81,9 @@ footer{
 @keyframes animate-wave-4{0% {background-position-x: 0;}
   100% {background-position-x: -1600px;}
 }
+
+@media screen and (max-width: 799px) {
+  .footer-text{
+    font-size: 20px;
+  }
+}

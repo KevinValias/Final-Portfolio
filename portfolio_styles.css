@@ -5,21 +5,20 @@
     height: 100%;
   }
 
-  .portfolio-container {
+  .portfolio-images{
     margin: 0 auto;
-    width: 100%;
-    max-width: 142.2;
   }
   .portfolio-container {
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
+    margin: 0 auto;
+    width: 127rem;
+    height: auto;
   }
   .portfolio-text-container {
     height: 30px;
     
   }
 .list-text {
-  font-size: 50px;
+  font-size: 40px;
   padding-right: 80px;
   float: right;
   }
@@ -47,11 +46,9 @@ list-style-type: none;
     vertical-align: middle;
     transform-style: preserve-3d;
     perspective: 1000px;
-   
+   margin: 2rem;
   }
   .reflection-container1:before {
-    content: 'Project 3';
-    color: #fff;
     position: center;
     left: -1rem;
     top: 50%;
@@ -1109,13 +1106,12 @@ list-style-type: none;
     vertical-align: middle;
     transform-style: preserve-3d;
     perspective: 1000px;
+    margin: 2rem;
     
     
     /* Added a margin  */
   }
   .reflection-container2:before {
-    content: 'Fuck Off';
-    color: #fff;
     position: absolute;
     left: -1rem;
     top: 50%;
@@ -2175,13 +2171,11 @@ list-style-type: none;
     vertical-align: middle;
     transform-style: preserve-3d;
     perspective: 1000px;
-     
+     margin: 2rem;
     
     /* Added a margin  */
   }
   .reflection-container3:before {
-    content: 'Fuck Off';
-    color: #fff;
     position: absolute;
     left: -1rem;
     top: 50%;
@@ -3236,13 +3230,12 @@ list-style-type: none;
     vertical-align: middle;
     transform-style: preserve-3d;
     perspective: 1000px;
+    margin: 2rem;
      
     
     /* Added a margin  */
   }
   .reflection-container4:before {
-    content: 'Fuck Off';
-    color: #fff;
     position: absolute;
     left: -1rem;
     top: 50%;
@@ -4311,7 +4304,7 @@ list-style-type: none;
   }
   .portfolio-text-container {
     font-size: 20px;
-    margin-left: 330px;
+    list-style-type: none;
   }
 
   .reflection-container1 .reflection-content1 {
@@ -4383,6 +4376,9 @@ list-style-type: none;
   
   } 
 
+  .list-text >li {
+    list-style-type: none;
+  }
   }
 
 /* #fe5200

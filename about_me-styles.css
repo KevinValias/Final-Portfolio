@@ -16,14 +16,13 @@
   box-shadow: 4.5px 7.5px 8px 5.7px rgb(111, 0, 0);
   background-color: #fff;
   padding: 40px;
-  min-height: 400px;
-  max-width: 800px;
+  height: auto;
+  width: 61rem;
   text-align: center;
   left: 55rem;
   transform: translate3d(0, 0, 0);
   position: absolute;
   z-index: 1;
-  margin-top: 5%;
 }
 
 .textbox>h2 {
@@ -38,8 +37,8 @@
 /* background image */
 .image-container {
   float: left;
-  margin-top: 10rem;
-  height: 45rem;
+  margin-top: 6rem;
+  height: auto;
   width: calc(100%-54rem);
 }
 
@@ -68,30 +67,17 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    /* width: 25rem;
-    height: 32rem; 
-
-    /* max-width: 500px; */
   }
 
   .image-container {
-    /* margin-top: 10rem; */
-    /* height: 30rem; */
-    /* width: 25rem; */
     display: none;
   }
-
-  /* .image {
-    margin: 0 auto;
-    width: 90%;
-    height: 55%;
-    display: none;
-  } */
 
   .image-2 {
     margin-top: 2rem;
     width: 90%;
     display: block;
+    margin-left: 2.4rem;
   }
 
   .textbox {

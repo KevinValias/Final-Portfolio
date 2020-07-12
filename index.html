@@ -30,7 +30,7 @@
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
             >&times;</a>
           <!-- LOGO -NEED TO ADD GRAPHIC IN HREF AND DELETE TEXT-->
-          <a href="#default" class="logo">Logo</a>
+          <a href="./images/KVAH logo.jpg" class="logo">logo</a>
           <!-- NAV BAR -->
           <div class="overlay-content">
             <a href="#">About</a>
@@ -56,14 +56,15 @@
       <div class="header-welcome">
         <hr />
         <h3>
-          Hello I am a web developer <br />
-          in Austin, Texas. Welcome to my portfolio!
+          Hello we are web developers <br />
+          in Austin, Texas. Welcome to our portfolio!
         </h3>
       </div>
       <div class="header-img">
-        <img src="./images/Untitled-1.jpg" alt="ariel holman title" />
+        <img class="ariel-kevin-img"src="./images/header-img-2.jpeg" alt="ariel holman title" />
       </div>
     </header>
+    <hr class="gradient" width="97%">
     <main class="main flex-container">
       <section class="about-me-content">
         <div class="textbox-container">
@@ -95,7 +96,7 @@
           </div>
         </div>
       </section>
-    <!-- <main class="main flex-container DELETE"> -->
+      <hr class="gradient" width="97%">
     <section id="resume-section">
       <div class="resume-container">
         <div class="resume">
@@ -129,6 +130,11 @@
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facilis.</li>
               </ul>
             </div>
+            <div>
+              <h2 class="resume-text">To visit my full resume,<a href="https://arielholman.github.io/resume-practice/"><span class="contact-me">
+                click here!
+              </span></h2></a>
+            </div>
             <script>
               var acc = document.getElementsByClassName("accordion");
               var i;
@@ -145,11 +151,11 @@
               }
             </script>
             <div class="btn">
-              <button class="button">Resume</button>
             </div>
-        </div> 
-      </div>  
-      </section>
+        </div> <br>
+      </div> 
+      <hr class="gradient" width="97%"> 
+    </section>
     <section class="portfolio-container">
      <div class="portfolio-text-container">
         <ul class="list-text">
@@ -164,7 +170,7 @@
           <li>& appreciation.</li>
         </ul>
           </div>
-          <section>
+          <section class="portfolio-images">
       <div class='reflection-container1'>
         <a class='reflection-grid-cell reflection-grid-cell-1' href='#'></a>
         <a class='reflection-grid-cell reflection-grid-cell-2' href='#'></a>
@@ -582,10 +588,10 @@
       </section>
       <br>
     </main>
-     <hr class="gradient" width="80%">
-  <section id="blog" class="blog flex-columns flex-reverse">
-    <div class="row">
-      <div class="img-container">
+     <hr class="gradient" width="97%">
+  <section>
+    <div class="blog-container">
+      <div class="blog-image-container">
         <div class="blog-image">
           <img src="quil.jpg" alt="">
         </div>
@@ -595,7 +601,7 @@
       <h4>April 20 2020</h4>
       <h2>Blog Post One</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis veniam blanditiis, doloremque maxime quaerat corrupti debitis laudantium similique corporis magni!</p>
-      <a href="blog.html" class="btn btn-outline">
+      <a href="https://medium.com/@arielaholman01" class="btn btn-outline">
       <i class="fas fa-chevron"></i>
       Read Our Blog
       </a>
@@ -603,39 +609,38 @@
       </div>
     </div>
   </section>
-  <br>
-  <hr class="gradient" width="80%">
+  <hr class="gradient" width="97%">
   <section>
-    <br>
-   <section id="contact" class="contact flex-columns">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
-            <img src="dialphone.jpg" alt="">
-          </div>
-          </div>
-        <div class="column">
-      <div class="column-2 bg-light">
-        <h2>Request Callback</h2>
-        <form action="" class="callback-form">
-          <div class="form-control">
-            <label for="name"></label>
-            <input type="text" name="name" id="name" placeholder="Enter name">
-          </div>
-          <div class="form-control">
-            <label for="email"></label>
-            <input type="email" name="email" id="email" placeholder="Enter email">
-          </div>
-          <div class="form-control">
-            <label for="phone"></label>
-            <input type="phone" name="phone" id="phone" placeholder="Enter phone">
-          </div>
-          <input type="submit" value="Send" id="submit"
-          class="btn">
-        </form>
+    <div class="contact-container">
+      <div class="contact-form-container" >
+        <div class="contact-form">
+          <h2>Request Callback</h2>
+          <form action="" class="callback-form">
+            <div>
+              <label for="name"></label>
+              <input type="text" name="name" id="name" placeholder="Enter name">
+            </div>
+            <div>
+              <label for="email"></label>
+              <input type="email" name="email" id="email" placeholder="Enter email">
+            </div>
+            <div>
+              <label for="phone"></label>
+              <input type="phone" name="phone" id="phone" placeholder="Enter phone">
+            </div>
+            <input type="submit" value="Send" id="submit"
+              class="btn">
+          </form>
+        </div>
+      </div> 
+      <div class="contact-image-container">
+        <div class="contact-image">
+          <img src="dialphone.jpg" alt="">
+        </div>
       </div>
-    </section>
-  <hr class="gradient" width="80%">
+    </div>
+  </section>
+  <hr class="gradient" width="97%">
   <footer>
     <div>
       <h2 class="footer-text">Lets start a project together, don't hesistate to--<a href="#"><span class="contact-me">contact me</span></h2></a>
